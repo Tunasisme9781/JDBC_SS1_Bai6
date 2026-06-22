@@ -9,9 +9,9 @@ public class hello {
         int speed = Integer.parseInt(sc.nextLine());
 
         System.out.println("Nhập thời gian đi (giờ): ");
-        Float hour = Float.parseFloat(sc.nextLine());
+        float hour = Float.parseFloat(sc.nextLine());
 
-        Float road = (Float) (speed * hour);
+        float road = speed * hour;
 
         System.out.printf("Quãng đường đi học là: %.2f", road );
 
